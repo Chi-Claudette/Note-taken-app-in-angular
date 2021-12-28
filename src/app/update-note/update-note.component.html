@@ -1,0 +1,25 @@
+<div class="main">
+  <br>
+<div class="container col-md-8 form" >
+  <br>
+  <h3 style="text-shadow: 3px 2px 3px black; color: white">Edit note</h3>
+<form [formGroup]="noteData" (ngSubmit)="update(noteData.value)">
+  <div class="form-group">
+    <label style="color: white">Title</label>
+    <input type="text" class="form-control" formControlName="title" [(ngModel)]="note.title">
+  </div>
+  <br>
+  <div class="form-group">
+    <label style="color: white">Content</label>
+    <quill-editor [styles]="{height: '300px', backgroundColor: 'white'}" formControlName="content" [(ngModel)]="note.content"></quill-editor>
+  </div>
+  <br>
+  <div>
+    <button type="submit" class="btn btn-info btn-lg" style="color: white">Edit note</button>&nbsp;&nbsp;&nbsp;
+    <button type="button" class="btn btn-danger btn-lg" (click)="cancel()">Cancel</button>
+  </div>
+</form>
+</div>
+  <br>
+  <br>
+</div>

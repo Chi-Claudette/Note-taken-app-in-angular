@@ -1,0 +1,19 @@
+button
+{
+  width: 200px;
+  box-shadow: 1px 2px 3px gray;
+}
+.main
+{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image:url('../../assets/pen.jfif');
+}
+.form
+{
+  border: 2px solid white;
+  box-shadow: 1px 1px 4px 1px gray;
+  padding: 10px;
+  background-color: rgba(3,0,3, 0.1);
+}

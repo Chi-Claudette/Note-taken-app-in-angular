@@ -1,0 +1,18 @@
+.box
+{
+  box-shadow: 1px 1px 4px 1px gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button
+{
+  width: 100px;
+  box-shadow: 1px 2px 3px gray;
+
+}
+.main
+{
+ background-color: white;
+}
+
